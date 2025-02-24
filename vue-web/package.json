@@ -1,0 +1,31 @@
+{
+  "name": "vue-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode test",
+    "build": "vue-tsc && vite build",
+    "build:prod": "vue-tsc && vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "7.0.1",
+    "ant-design-vue": "4.x",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.11",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.4.21",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.72.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
